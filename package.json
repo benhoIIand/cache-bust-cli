@@ -1,0 +1,35 @@
+{
+  "name": "cache-bust-cli",
+  "version": "0.1.0",
+  "description": "CLI tool for cache busting assets",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hollandben/cache-bust-cli.git"
+  },
+  "keywords": [
+    "cache",
+    "bust",
+    "cli",
+    "bust assets"
+  ],
+  "author": "Ben Holland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hollandben/cache-bust-cli/issues"
+  },
+  "homepage": "https://github.com/hollandben/cache-bust-cli",
+  "bin": {
+    "cacheBust": "index.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "css": "^2.2.0",
+    "file-exists": "^0.1.1",
+    "grunt": "^0.4.5",
+    "lodash": "^3.3.1",
+    "yargs": "^3.4.5"
+  }
+}
