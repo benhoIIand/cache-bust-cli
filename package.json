@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "CLI tool for cache busting assets",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*Spec.js",
+    "testdev": "mocha -w test/*Spec.js"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,13 @@
     "cacheBust": "index.js"
   },
   "dependencies": {
+    "chai": "^2.1.0",
     "cheerio": "^0.18.0",
     "css": "^2.2.0",
     "file-exists": "^0.1.1",
     "grunt": "^0.4.5",
     "lodash": "^3.3.1",
+    "mocha": "^2.1.0",
     "yargs": "^3.4.5"
   }
 }
